@@ -1,0 +1,334 @@
+@import url("./reset.css");
+
+body {
+  background-color: #ffffec; /* 背景色を薄いグレーに変更 */
+}
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.profile {
+  background-color: #ffffec;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header_right {
+  display: flex;
+}
+.titlename {
+  display: flex; /* フレックスボックスに設定 */
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center;
+  flex-direction: column;
+}
+.haru {
+  font-family: "Lexend Giga", serif;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: normal;
+  color: #fb8e00;
+}
+.fujihara {
+  font-family: "Lexend Giga", serif;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: normal;
+  color: #fb8e00;
+}
+.picturepart {
+  display: flex; /* flexboxを使用 */
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center;
+  height: 100vh;
+  margin-top: 5%;
+}
+.toppicture {
+  width: 80%; /* 親要素の幅の80%に設定 */
+  max-width: 100%; /* 画像が親要素より大きくならないように設定 */
+  height: 70%; /*
+  object-fit: cover; /* 画像が楕円の枠に収まるように調整 */
+  border-radius: 40%;
+}
+.information a:hover {
+  color: #25ceff;
+}
+.button_right {
+  padding: 10px 20px;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 15px;
+  font-size: 20px;
+}
+h3 {
+  letter-spacing: 1px;
+}
+.sns {
+  display: flex;
+}
+
+.instagram {
+  margin-left: 8px;
+  height: 50px;
+  width: 50px;
+}
+.instagram_link:hover img {
+  opacity: 0.6;
+}
+.linee {
+  margin-left: 8px;
+  margin-top: 12px;
+  height: 28px;
+  width: 28px;
+}
+.line_link:hover img {
+  opacity: 0.6;
+}
+.youtube {
+  margin-left: 8px;
+  margin-top: 2px;
+  height: 50px;
+  width: 50px;
+}
+.youtube_link:hover img {
+  opacity: 0.6;
+}
+.title {
+  display: flex; /* フレックスボックスに設定 */
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center;
+  flex-direction: column;
+}
+
+.toptitle {
+  font-family: "Lexend Giga", serif;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: normal;
+  color: #fb8e00;
+  display: flex; /* Flexboxを有効にする */
+  justify-content: center; /* 水平方向に中央揃え */
+  align-items: center;
+}
+.selfintroduction {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+.selfphotoimg {
+  padding-top: 60px;
+}
+.selfphoto {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px; /* 角を丸くする */
+  object-fit: cover;
+}
+.aboutme {
+  padding-left: 2%;
+}
+.namepart {
+  padding-left: 3%;
+}
+.fujiharahiragana {
+  font-size: 20px;
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: bold;
+}
+.fujiharakanji {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 50px;
+  color: #3f3f3f;
+}
+.myself {
+  padding-top: 2%;
+  font-family: "Zen Kaku Gothic New", serif;
+  font-size: 20px;
+  width: 630px;
+}
+
+.outer {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+}
+.music {
+  margin-top: 3%;
+}
+.musicbox_orange {
+  width: 324px;
+  height: 436px;
+  border-radius: 30px;
+  background-color: #fb8e00;
+}
+.backwhite {
+  width: 307px;
+  height: 213px;
+  border-radius: 10px;
+  background-color: #ffffec;
+}
+.musicpicture {
+  padding-top: 31px;
+  width: 288px;
+  height: 198px;
+}
+.higurashi {
+  border-radius: 10px;
+}
+.musictitle {
+  font-family: "Zen Kaku Gothic New", serif;
+  font-size: 33px;
+  font-weight: 500;
+}
+.foodpart {
+  margin-top: 100px;
+  display: flex;
+}
+.thaibrazil {
+  flex-flow: column;
+  padding-right: 60px;
+}
+.thaifood {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.thaifoodsentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+.brazilfood {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.brazilfoodsentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.esniclove {
+  width: 160px;
+  height: 460px;
+  background-color: #d9d9d9;
+}
+.esniclovesentence {
+  font-family: "Noto Serif JP", serif;
+  font-size: 37px;
+  margin-left: 5px;
+  margin-top: 70px;
+  text-align: center;
+}
+.rightfoodpart {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+.singaporeblock {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.singaporefood {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.singaporefoodsentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.favoritefood {
+  width: 240px;
+  height: 240px;
+  background-color: #a6a6a6;
+}
+.favoritefoodsentence {
+  font-family: "Noto Serif JP", serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 30;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.indianfood {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.indianfoodsentence {
+  font-size: 15px;
+  font-family: "Noto Serif JP", serif;
+  font-weight: 200;
+}
+.blackline2 {
+  padding-top: 50px;
+  border-bottom: 2px solid black;
+}
+.snspart {
+  padding-left: 360px;
+  padding-right: 360px;
+}
+.snssentence {
+  font-size: 45px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+  font-weight: 40;
+  text-decoration: underline;
+  margin-top: 25px;
+}
+.snsimg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.instagrambottom {
+  height: 120px;
+  width: 120px;
+}
+.linebottom {
+  height: 70px;
+  width: 70px;
+  margin-top: 25px;
+}
+.youtubebottom {
+  height: 110px;
+  width: 110px;
+  object-fit: cover;
+  margin-top: 6px;
+}
+.contactplease {
+  font-family: "Noto Serif JP", serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 20;
+  margin-top: 30px;
+}
+
+.fotter {
+  margin-top: 60px;
+  height: 60px;
+  background-color: #aaaaaa;
+}
+.fottersentence {
+  font-family: "Kaisei Decol", serif;
+  font-weight: lighter;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (width: 600px) {
+}
